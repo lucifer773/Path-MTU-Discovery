@@ -1,9 +1,7 @@
 typedef struct {
-    char msg[500];
+    char msg[100];
     int len;
     int dest;
-   
-    //.mtu = 0;
 }packet_data;
 
  int mtu;
